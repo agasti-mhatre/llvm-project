@@ -1101,6 +1101,8 @@ StmtResult Parser::handleExprStmt(ExprResult E, ParsedStmtContext StmtCtx) {
   return Actions.ActOnExprStmt(E, /*DiscardedValue=*/!IsStmtExprResult);
 }
 
+int DebugCounter2 = 0;
+
 StmtResult Parser::ParseCompoundStatementBody(bool isStmtExpr) {
   PrettyStackTraceLoc CrashInfo(PP.getSourceManager(),
                                 Tok.getLocation(),
@@ -1160,6 +1162,9 @@ StmtResult Parser::ParseCompoundStatementBody(bool isStmtExpr) {
   bool LastIsError = false;
   while (!tryParseMisplacedModuleImport() && Tok.isNot(tok::r_brace) &&
          Tok.isNot(tok::eof)) {
+
+    ++DebugCounter2; // Note down debug counter when we hit the for loop
+
     if (Tok.is(tok::annot_pragma_unused)) {
       HandlePragmaUnused();
       continue;
@@ -1167,6 +1172,10 @@ StmtResult Parser::ParseCompoundStatementBody(bool isStmtExpr) {
 
     if (ConsumeNullStmt(Stmts))
       continue;
+
+    if (DebugCounter2 == 9616) {
+      int x = 5;
+    }
 
     StmtResult R;
     if (Tok.isNot(tok::kw___extension__)) {

@@ -1,0 +1,642 @@
+Dumping rusage_info_v3::ri_cpu_time_qos_maintenance:
+FieldDecl 0xa04f52480 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h:279:2, col:11> col:11 ri_cpu_time_qos_maintenance 'uint64_t':'unsigned long long'
+
+Dumping rusage_info_v4::ri_cpu_time_qos_maintenance:
+FieldDecl 0xa04f53318 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h:310:2, col:11> col:11 ri_cpu_time_qos_maintenance 'uint64_t':'unsigned long long'
+
+Dumping rusage_info_v5::ri_cpu_time_qos_maintenance:
+FieldDecl 0xa04f54548 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h:349:2, col:11> col:11 ri_cpu_time_qos_maintenance 'uint64_t':'unsigned long long'
+
+Dumping rusage_info_v6::ri_cpu_time_qos_maintenance:
+FieldDecl 0xa04f557e8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h:389:2, col:11> col:11 ri_cpu_time_qos_maintenance 'uint64_t':'unsigned long long'
+
+Dumping std::domain_error:
+CXXRecordDecl 0xa03480808 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept:128:1, line:138:1> line:128:33 referenced class domain_error definition external-linkage
+|-DefinitionData polymorphic has_user_declared_ctor can_const_default_init
+| |-DefaultConstructor defaulted_is_constexpr
+| |-CopyConstructor non_trivial user_declared has_const_param needs_overload_resolution implicit_has_const_param
+| |-MoveConstructor needs_overload_resolution
+| |-CopyAssignment non_trivial has_const_param user_declared needs_overload_resolution implicit_has_const_param
+| |-MoveAssignment needs_overload_resolution
+| `-Destructor non_trivial user_declared needs_overload_resolution
+|-public 'logic_error'
+|-VisibilityAttr 0xa03480918 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Default
+|-CXXRecordDecl 0xa03480a08 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept:128:1, col:33> col:33 implicit referenced class domain_error
+|-AccessSpecDecl 0xa03480ab8 <line:129:1, col:7> col:1 public
+|-CXXConstructorDecl 0xa03480c90 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:39, /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept:130:86> col:34 domain_error 'void (const string &)' implicit-inline external-linkage
+| |-ParmVarDecl 0xa03480b98 <col:47, col:61> col:61 used __s 'const string &'
+| |-CXXCtorInitializer 'logic_error'
+| | `-CXXConstructExpr 0xa03481cd0 <col:68, col:83> 'logic_error' 'void (const string &)'
+| |   `-DeclRefExpr 0xa03481a90 <col:80> 'const string':'const std::string' lvalue ParmVar 0xa03480b98 '__s' 'const string &'
+| |-CompoundStmt 0xa03481d28 <col:85, col:86>
+| |-VisibilityAttr 0xa03480d48 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Hidden
+| |-ExcludeFromExplicitInstantiationAttr 0xa03480da8 <line:278:72>
+| `-AbiTagAttr 0xa03480dd0 <line:388:22, col:73> nqe210106
+|-CXXConstructorDecl 0xa03480f60 <line:239:39, /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept:131:84> col:34 used domain_error 'void (const char *)' implicit-inline external-linkage
+| |-ParmVarDecl 0xa03480eb0 <col:47, col:59> col:59 used __s 'const char *'
+| |-CXXCtorInitializer 'logic_error'
+| | `-CXXConstructExpr 0xa03481da8 <col:66, col:81> 'logic_error' 'void (const char *)'
+| |   `-ImplicitCastExpr 0xa03481d90 <col:78> 'const char *' <LValueToRValue>
+| |     `-DeclRefExpr 0xa03481d38 <col:78> 'const char *' lvalue ParmVar 0xa03480eb0 '__s' 'const char *'
+| |-CompoundStmt 0xa03481e00 <col:83, col:84>
+| |-VisibilityAttr 0xa03481018 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Hidden
+| |-ExcludeFromExplicitInstantiationAttr 0xa03481078 <line:278:72>
+| `-AbiTagAttr 0xa034810a0 <line:388:22, col:73> nqe210106
+|-CXXConstructorDecl 0xa03481330 <line:239:39, /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept:134:88> col:25 constexpr domain_error 'void (const domain_error &) noexcept' default implicit-inline external-linkage
+| |-ParmVarDecl 0xa034811f8 <col:38, col:56> col:57 'const domain_error &'
+| |-VisibilityAttr 0xa034813e8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Hidden
+| |-ExcludeFromExplicitInstantiationAttr 0xa03481448 <line:278:72>
+| `-AbiTagAttr 0xa03481470 <line:388:22, col:73> nqe210106
+|-CXXMethodDecl 0xa03481710 <line:239:39, /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept:135:88> col:39 constexpr operator= 'domain_error &(const domain_error &) noexcept' default implicit-inline external-linkage
+| |-ParmVarDecl 0xa03481568 <col:49, col:67> col:68 'const domain_error &'
+| |-VisibilityAttr 0xa034817c0 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Hidden
+| |-ExcludeFromExplicitInstantiationAttr 0xa03481820 <line:278:72>
+| `-AbiTagAttr 0xa03481848 <line:388:22, col:73> nqe210106
+`-CXXDestructorDecl 0xa03481918 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept:136:3, col:29> col:3 used ~domain_error 'void () noexcept' external-linkage
+  |-Overrides: [ 0xa0345f568 logic_error::~logic_error 'void () noexcept' ]
+  `-OverrideAttr 0xa034819e0 <col:29>
+
+Dumping std::__throw_domain_error:
+FunctionDecl 0xa0348a0f0 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept:226:18, line:232:1> line:226:52 __throw_domain_error 'void (const char *)' inline external-linkage
+|-ParmVarDecl 0xa0348a040 <col:73, col:85> col:85 used __msg 'const char *'
+|-CompoundStmt 0xa0348a4e0 <col:92, line:232:1>
+| `-ExprWithCleanups 0xa0348a4c8 <line:228:3, col:27> 'void'
+|   `-CXXThrowExpr 0xa0348a4b0 <col:3, col:27> 'void'
+|     `-CXXFunctionalCastExpr 0xa0348a488 <col:9, col:27> 'domain_error' functional cast to domain_error <ConstructorConversion>
+|       `-CXXBindTemporaryExpr 0xa0348a468 <col:9, col:27> 'domain_error' (CXXTemporary 0xa0348a468)
+|         `-CXXConstructExpr 0xa0348a430 <col:9, col:27> 'domain_error' 'void (const char *)'
+|           `-ImplicitCastExpr 0xa0348a318 <col:22> 'const char *' <LValueToRValue>
+|             `-DeclRefExpr 0xa0348a2f8 <col:22> 'const char *' lvalue ParmVar 0xa0348a040 '__msg' 'const char *'
+|-CXX11NoReturnAttr 0xa0348a1a0 <line:226:3> noreturn
+|-VisibilityAttr 0xa0348a1f8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Hidden
+|-ExcludeFromExplicitInstantiationAttr 0xa0348a228 <line:278:72>
+`-AbiTagAttr 0xa0348a250 <line:388:22, col:73> nqe210106
+
+Dumping std::errc::argument_out_of_domain:
+EnumConstantDecl 0xa0390bf80 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/errc.h:149:5, /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h:125:25> /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/errc.h:149:5 argument_out_of_domain 'std::errc'
+`-ConstantExpr 0xa0390bf58 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h:125:25> 'int'
+  |-value: Int 33
+  `-IntegerLiteral 0xa0390bf38 <col:25> 'int' 33
+
+Dumping remainderf:
+FunctionDecl 0xa01898368 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h:527:1, col:37> col:14 remainderf 'float (float, float)' extern external-linkage
+|-ParmVarDecl 0xa01898208 <col:25> col:30 'float'
+|-ParmVarDecl 0xa01898290 <col:32> col:37 'float'
+|-BuiltinAttr 0xa01898438 <<invalid sloc>> Implicit 1157
+|-ConstAttr 0xa01898498 <col:14> Implicit
+`-NoThrowAttr 0xa018984c0 <col:14> Implicit
+
+Dumping remainder:
+FunctionDecl 0xa01898668 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h:528:1, col:39> col:15 remainder 'double (double, double)' extern external-linkage
+|-ParmVarDecl 0xa01898508 <col:25> col:31 'double'
+|-ParmVarDecl 0xa01898590 <col:33> col:39 'double'
+|-BuiltinAttr 0xa01898738 <<invalid sloc>> Implicit 1159
+|-ConstAttr 0xa01898798 <col:15> Implicit
+`-NoThrowAttr 0xa018987c0 <col:15> Implicit
+
+Dumping remainderl:
+FunctionDecl 0xa01898968 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h:529:1, col:55> col:20 remainderl 'long double (long double, long double)' extern external-linkage
+|-ParmVarDecl 0xa01898808 <col:31, col:36> col:42 'long double'
+|-ParmVarDecl 0xa01898890 <col:44, col:49> col:55 'long double'
+|-BuiltinAttr 0xa01898a38 <<invalid sloc>> Implicit 1161
+|-ConstAttr 0xa01898a98 <col:20> Implicit
+`-NoThrowAttr 0xa01898ac0 <col:20> Implicit
+
+Dumping std::__math::remainder:
+FunctionDecl 0xa018e01a8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:28:1, col:119> col:36 remainder 'float (float, float) noexcept' inline external-linkage
+|-ParmVarDecl 0xa018e0040 <col:46, col:52> col:52 used __x 'float'
+|-ParmVarDecl 0xa018e00c8 <col:57, col:63> col:63 used __y 'float'
+|-CompoundStmt 0xa018e0708 <col:78, col:119>
+| `-ReturnStmt 0xa018e06f8 <col:80, col:116>
+|   `-CallExpr 0xa018e0690 <col:87, col:116> 'float'
+|     |-ImplicitCastExpr 0xa018e0678 <col:87> 'float (*)(float, float) noexcept' <BuiltinFnToFnPtr>
+|     | `-DeclRefExpr 0xa018e0600 <col:87> '<builtin fn type>' Function 0xa018e03b8 '__builtin_remainderf' 'float (float, float) noexcept'
+|     |-ImplicitCastExpr 0xa018e06c8 <col:108> 'float' <LValueToRValue>
+|     | `-DeclRefExpr 0xa018e0638 <col:108> 'float' lvalue ParmVar 0xa018e0040 '__x' 'float'
+|     `-ImplicitCastExpr 0xa018e06e0 <col:113> 'float' <LValueToRValue>
+|       `-DeclRefExpr 0xa018e0658 <col:113> 'float' lvalue ParmVar 0xa018e00c8 '__y' 'float'
+|-VisibilityAttr 0xa018e0260 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Hidden
+|-ExcludeFromExplicitInstantiationAttr 0xa018e02c0 <line:278:72>
+`-AbiTagAttr 0xa018e02e8 <line:388:22, col:73> nqe210106
+
+Dumping std::__math::remainder:
+FunctionTemplateDecl 0xa018e0a80 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:30:1, line:33:1> line:31:30 remainder external-linkage
+|-TemplateTypeParmDecl 0xa018e0740 <line:30:11, col:19> col:17 class depth 0 index 0
+| `-TemplateArgument type 'int'
+|   `-BuiltinType 0xa04cc7110 'int'
+`-FunctionDecl 0xa018e09d0 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:39, /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:33:1> line:31:30 remainder 'double (double, double) noexcept'
+  |-ParmVarDecl 0xa018e0868 <col:40, col:47> col:47 referenced __x 'double'
+  |-ParmVarDecl 0xa018e08f0 <col:52, col:59> col:59 referenced __y 'double'
+  |-CompoundStmt 0xa018e1010 <col:74, line:33:1>
+  | `-ReturnStmt 0xa018e1000 <line:32:3, col:38>
+  |   `-CallExpr 0xa018e0f98 <col:10, col:38> 'double'
+  |     |-ImplicitCastExpr 0xa018e0f80 <col:10> 'double (*)(double, double) noexcept' <BuiltinFnToFnPtr>
+  |     | `-DeclRefExpr 0xa018e0f08 <col:10> '<builtin fn type>' Function 0xa018e0cc0 '__builtin_remainder' 'double (double, double) noexcept'
+  |     |-ImplicitCastExpr 0xa018e0fd0 <col:30> 'double' <LValueToRValue>
+  |     | `-DeclRefExpr 0xa018e0f40 <col:30> 'double' lvalue ParmVar 0xa018e0868 '__x' 'double'
+  |     `-ImplicitCastExpr 0xa018e0fe8 <col:35> 'double' <LValueToRValue>
+  |       `-DeclRefExpr 0xa018e0f60 <col:35> 'double' lvalue ParmVar 0xa018e08f0 '__y' 'double'
+  |-VisibilityAttr 0xa018e0ae8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Hidden
+  |-ExcludeFromExplicitInstantiationAttr 0xa018e0b48 <line:278:72>
+  `-AbiTagAttr 0xa018e0b70 <line:388:22, col:73> nqe210106
+
+Dumping std::__math::remainder:
+FunctionDecl 0xa018e11f8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:35:1, line:37:1> line:35:42 remainder 'long double (long double, long double) noexcept' inline external-linkage
+|-ParmVarDecl 0xa018e1090 <col:52, col:64> col:64 used __x 'long double'
+|-ParmVarDecl 0xa018e1118 <col:69, col:81> col:81 used __y 'long double'
+|-CompoundStmt 0xa018e1768 <col:96, line:37:1>
+| `-ReturnStmt 0xa018e1758 <line:36:3, col:39>
+|   `-CallExpr 0xa018e16f0 <col:10, col:39> 'long double'
+|     |-ImplicitCastExpr 0xa018e16d8 <col:10> 'long double (*)(long double, long double) noexcept' <BuiltinFnToFnPtr>
+|     | `-DeclRefExpr 0xa018e1660 <col:10> '<builtin fn type>' Function 0xa018e1418 '__builtin_remainderl' 'long double (long double, long double) noexcept'
+|     |-ImplicitCastExpr 0xa018e1728 <col:31> 'long double' <LValueToRValue>
+|     | `-DeclRefExpr 0xa018e1698 <col:31> 'long double' lvalue ParmVar 0xa018e1090 '__x' 'long double'
+|     `-ImplicitCastExpr 0xa018e1740 <col:36> 'long double' <LValueToRValue>
+|       `-DeclRefExpr 0xa018e16b8 <col:36> 'long double' lvalue ParmVar 0xa018e1118 '__y' 'long double'
+|-VisibilityAttr 0xa018e12b0 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Hidden
+|-ExcludeFromExplicitInstantiationAttr 0xa018e1310 <line:278:72>
+`-AbiTagAttr 0xa018e1338 <line:388:22, col:73> nqe210106
+
+Dumping std::__math::remainder:
+FunctionTemplateDecl 0xa018e2998 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:39:1, line:44:1> line:40:52 remainder external-linkage
+|-TemplateTypeParmDecl 0xa018e1788 <line:39:11, col:17> col:17 referenced class depth 0 index 0 _A1
+|-TemplateTypeParmDecl 0xa018e1818 <col:22, col:28> col:28 referenced class depth 0 index 1 _A2
+|-NonTypeTemplateParmDecl 0xa018e1da0 <col:33, col:110> col:108 '__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value, int>':'typename enable_if<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value, int>::type' depth 0 index 2
+| `-TemplateArgument <col:110> expr '0'
+|   `-IntegerLiteral 0xa018e1d40 <col:110> 'int' 0
+`-FunctionDecl 0xa018e28e8 <line:40:1, line:44:1> line:40:52 remainder '__promote_t<_A1, _A2> (_A1, _A2) noexcept' inline
+  |-ParmVarDecl 0xa018e2728 <col:62, col:66> col:66 referenced __x '_A1'
+  |-ParmVarDecl 0xa018e27a8 <col:71, col:75> col:75 referenced __y '_A2'
+  |-CompoundStmt 0xa018e3eb8 <col:90, line:44:1>
+  | |-DeclStmt 0xa018e3410 <line:41:3, col:46>
+  | | `-TypeAliasDecl 0xa018e33b0 <col:3, col:45> col:9 referenced __result_type '__promote_t<_A1, _A2>':'decltype((__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value>)0 , std::__promote_impl(_A1()) + std::__promote_impl(_A2()))'
+  | |   `-TemplateSpecializationType 0xa018e32d0 '__promote_t<_A1, _A2>' sugar dependent alias
+  | |     |-name: '__promote_t':'std::__promote_t' qualified
+  | |     | `-TypeAliasTemplateDecl 0xa0553bec8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/promote.h:37:1, line:39:106> line:38:1 referenced __promote_t external-linkage
+  | |     |-TemplateArgument type '_A1':'type-parameter-0-0'
+  | |     | `-TemplateTypeParmType 0xa018e17e0 '_A1' dependent depth 0 index 0
+  | |     |   `-TemplateTypeParm 0xa018e1788 '_A1'
+  | |     |-TemplateArgument type '_A2':'type-parameter-0-1'
+  | |     | `-TemplateTypeParmType 0xa018e1870 '_A2' dependent depth 0 index 1
+  | |     |   `-TemplateTypeParm 0xa018e1818 '_A2'
+  | |     `-DecltypeType 0xa018e3290 'decltype((__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value>)0 , std::__promote_impl(_A1()) + std::__promote_impl(_A2()))' dependent
+  | |       `-BinaryOperator 0xa018e3268 <line:39:14, col:98> '<dependent type>' ','
+  | |         |-CStyleCastExpr 0xa018e3020 <col:14, col:67> '__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value>':'typename enable_if<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value, void>::type' <Dependent>
+  | |         | `-IntegerLiteral 0xa0553bb90 <col:67> 'int' 0
+  | |         `-BinaryOperator 0xa018e3248 <col:71, col:98> '<dependent type>' '+'
+  | |           |-CallExpr 0xa018e3218 <col:71, col:98> '<dependent type>'
+  | |           | |-UnresolvedLookupExpr 0xa018e3148 <col:71, col:76> '<overloaded function type>' lvalue (no ADL) = '__promote_impl' 0xa05539ef0 0xa0553a0c0 0xa0553a2c0 0xa0553a4c0 0xa0553a6c0 0xa0553a8c0 0xa0553aac0 0xa0553acc0 0xa0553af40 0xa0553b190 0xa0553b390 0xa0553b590
+  | |           | `-CXXUnresolvedConstructExpr 0xa018e31f8 <col:91, col:97> '_A1' '_A1'
+  | |           `-CallExpr 0xa018e3118 <col:71, col:98> '<dependent type>'
+  | |             |-UnresolvedLookupExpr 0xa018e3048 <col:71, col:76> '<overloaded function type>' lvalue (no ADL) = '__promote_impl' 0xa05539ef0 0xa0553a0c0 0xa0553a2c0 0xa0553a4c0 0xa0553a6c0 0xa0553a8c0 0xa0553aac0 0xa0553acc0 0xa0553af40 0xa0553b190 0xa0553b390 0xa0553b590
+  | |             `-CXXUnresolvedConstructExpr 0xa018e30f8 <col:91, col:97> '_A2' '_A2'
+  | |-DeclStmt 0xa018e3ce8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:42:3, col:97>
+  | | `-StaticAssertDecl 0xa018e3ca8 <col:3, col:96> col:3
+  | |   |-UnaryOperator 0xa018e3c70 <col:17, col:91> '<dependent type>' prefix '!' cannot overflow
+  | |   | `-ParenExpr 0xa018e3c50 <col:18, col:91> '<dependent type>'
+  | |   |   `-BinaryOperator 0xa018e3c30 <col:19, col:86> '<dependent type>' '&&'
+  | |   |     |-DependentScopeDeclRefExpr 0xa018e3830 <col:19, col:48> '<dependent type>' lvalue
+  | |   |     | `-NestedNameSpecifier TypeSpec '_IsSame<_A1, __result_type>':'integral_constant<bool, __is_same(_A1, __result_type)>'
+  | |   |     `-DependentScopeDeclRefExpr 0xa018e3bf8 <col:57, col:86> '<dependent type>' lvalue
+  | |   |       `-NestedNameSpecifier TypeSpec '_IsSame<_A2, __result_type>':'integral_constant<bool, __is_same(_A2, __result_type)>'
+  | |   `-StringLiteral 0xa018e3c88 <col:94> 'NULL TYPE' lvalue ""
+  | `-ReturnStmt 0xa018e3ea8 <line:43:3, col:66>
+  |   `-CallExpr 0xa018e3e70 <col:10, col:66> '<dependent type>'
+  |     |-UnresolvedLookupExpr 0xa018e3d20 <col:10, col:18> '<overloaded function type>' lvalue (no ADL) = 'remainder' 0xa018e01a8 0xa018e0a80 0xa018e11f8 0xa018e2998
+  |     |-CStyleCastExpr 0xa018e3dd0 <col:28, col:43> '__result_type':'decltype((__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value>)0 , std::__promote_impl(_A1()) + std::__promote_impl(_A2()))' <Dependent>
+  |     | `-DeclRefExpr 0xa018e3d98 <col:43> '_A1' lvalue ParmVar 0xa018e2728 '__x' '_A1'
+  |     `-CStyleCastExpr 0xa018e3e48 <col:48, col:63> '__result_type':'decltype((__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value>)0 , std::__promote_impl(_A1()) + std::__promote_impl(_A2()))' <Dependent>
+  |       `-DeclRefExpr 0xa018e3e10 <col:63> '_A2' lvalue ParmVar 0xa018e27a8 '__y' '_A2'
+  |-VisibilityAttr 0xa018e2a00 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Hidden
+  |-ExcludeFromExplicitInstantiationAttr 0xa018e2a60 <line:278:72>
+  `-AbiTagAttr 0xa018e2a88 <line:388:22, col:73> nqe210106
+
+Dumping remainder:
+UsingDecl 0xa01911770 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h:481:1, col:20> col:20 std::__math::remainder
+`-NestedNameSpecifier Namespace 0xa01907018 '__math'
+  `-NestedNameSpecifier Namespace 0xa01906ec8 'std'
+
+Dumping remainder:
+UsingShadowDecl 0xa019117e0 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h:481:20> col:20 implicit Function 0xa018e01a8 'remainder' 'float (float, float) noexcept'
+`-FunctionDecl 0xa018e01a8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:28:1, col:119> col:36 remainder 'float (float, float) noexcept' inline external-linkage
+  |-ParmVarDecl 0xa018e0040 <col:46, col:52> col:52 used __x 'float'
+  |-ParmVarDecl 0xa018e00c8 <col:57, col:63> col:63 used __y 'float'
+  |-CompoundStmt 0xa018e0708 <col:78, col:119>
+  | `-ReturnStmt 0xa018e06f8 <col:80, col:116>
+  |   `-CallExpr 0xa018e0690 <col:87, col:116> 'float'
+  |     |-ImplicitCastExpr 0xa018e0678 <col:87> 'float (*)(float, float) noexcept' <BuiltinFnToFnPtr>
+  |     | `-DeclRefExpr 0xa018e0600 <col:87> '<builtin fn type>' Function 0xa018e03b8 '__builtin_remainderf' 'float (float, float) noexcept'
+  |     |-ImplicitCastExpr 0xa018e06c8 <col:108> 'float' <LValueToRValue>
+  |     | `-DeclRefExpr 0xa018e0638 <col:108> 'float' lvalue ParmVar 0xa018e0040 '__x' 'float'
+  |     `-ImplicitCastExpr 0xa018e06e0 <col:113> 'float' <LValueToRValue>
+  |       `-DeclRefExpr 0xa018e0658 <col:113> 'float' lvalue ParmVar 0xa018e00c8 '__y' 'float'
+  |-VisibilityAttr 0xa018e0260 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Hidden
+  |-ExcludeFromExplicitInstantiationAttr 0xa018e02c0 <line:278:72>
+  `-AbiTagAttr 0xa018e02e8 <line:388:22, col:73> nqe210106
+
+Dumping remainder:
+UsingShadowDecl 0xa01911860 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h:481:20> col:20 implicit FunctionTemplate 0xa018e0a80 'remainder'
+`-FunctionTemplateDecl 0xa018e0a80 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:30:1, line:33:1> line:31:30 remainder external-linkage
+  |-TemplateTypeParmDecl 0xa018e0740 <line:30:11, col:19> col:17 class depth 0 index 0
+  | `-TemplateArgument type 'int'
+  |   `-BuiltinType 0xa04cc7110 'int'
+  `-FunctionDecl 0xa018e09d0 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:39, /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:33:1> line:31:30 remainder 'double (double, double) noexcept'
+    |-ParmVarDecl 0xa018e0868 <col:40, col:47> col:47 referenced __x 'double'
+    |-ParmVarDecl 0xa018e08f0 <col:52, col:59> col:59 referenced __y 'double'
+    |-CompoundStmt 0xa018e1010 <col:74, line:33:1>
+    | `-ReturnStmt 0xa018e1000 <line:32:3, col:38>
+    |   `-CallExpr 0xa018e0f98 <col:10, col:38> 'double'
+    |     |-ImplicitCastExpr 0xa018e0f80 <col:10> 'double (*)(double, double) noexcept' <BuiltinFnToFnPtr>
+    |     | `-DeclRefExpr 0xa018e0f08 <col:10> '<builtin fn type>' Function 0xa018e0cc0 '__builtin_remainder' 'double (double, double) noexcept'
+    |     |-ImplicitCastExpr 0xa018e0fd0 <col:30> 'double' <LValueToRValue>
+    |     | `-DeclRefExpr 0xa018e0f40 <col:30> 'double' lvalue ParmVar 0xa018e0868 '__x' 'double'
+    |     `-ImplicitCastExpr 0xa018e0fe8 <col:35> 'double' <LValueToRValue>
+    |       `-DeclRefExpr 0xa018e0f60 <col:35> 'double' lvalue ParmVar 0xa018e08f0 '__y' 'double'
+    |-VisibilityAttr 0xa018e0ae8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Hidden
+    |-ExcludeFromExplicitInstantiationAttr 0xa018e0b48 <line:278:72>
+    `-AbiTagAttr 0xa018e0b70 <line:388:22, col:73> nqe210106
+
+Dumping remainder:
+UsingShadowDecl 0xa019118e0 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h:481:20> col:20 implicit Function 0xa018e11f8 'remainder' 'long double (long double, long double) noexcept'
+`-FunctionDecl 0xa018e11f8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:35:1, line:37:1> line:35:42 remainder 'long double (long double, long double) noexcept' inline external-linkage
+  |-ParmVarDecl 0xa018e1090 <col:52, col:64> col:64 used __x 'long double'
+  |-ParmVarDecl 0xa018e1118 <col:69, col:81> col:81 used __y 'long double'
+  |-CompoundStmt 0xa018e1768 <col:96, line:37:1>
+  | `-ReturnStmt 0xa018e1758 <line:36:3, col:39>
+  |   `-CallExpr 0xa018e16f0 <col:10, col:39> 'long double'
+  |     |-ImplicitCastExpr 0xa018e16d8 <col:10> 'long double (*)(long double, long double) noexcept' <BuiltinFnToFnPtr>
+  |     | `-DeclRefExpr 0xa018e1660 <col:10> '<builtin fn type>' Function 0xa018e1418 '__builtin_remainderl' 'long double (long double, long double) noexcept'
+  |     |-ImplicitCastExpr 0xa018e1728 <col:31> 'long double' <LValueToRValue>
+  |     | `-DeclRefExpr 0xa018e1698 <col:31> 'long double' lvalue ParmVar 0xa018e1090 '__x' 'long double'
+  |     `-ImplicitCastExpr 0xa018e1740 <col:36> 'long double' <LValueToRValue>
+  |       `-DeclRefExpr 0xa018e16b8 <col:36> 'long double' lvalue ParmVar 0xa018e1118 '__y' 'long double'
+  |-VisibilityAttr 0xa018e12b0 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Hidden
+  |-ExcludeFromExplicitInstantiationAttr 0xa018e1310 <line:278:72>
+  `-AbiTagAttr 0xa018e1338 <line:388:22, col:73> nqe210106
+
+Dumping remainder:
+UsingShadowDecl 0xa01911960 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h:481:20> col:20 implicit FunctionTemplate 0xa018e2998 'remainder'
+`-FunctionTemplateDecl 0xa018e2998 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:39:1, line:44:1> line:40:52 remainder external-linkage
+  |-TemplateTypeParmDecl 0xa018e1788 <line:39:11, col:17> col:17 referenced class depth 0 index 0 _A1
+  |-TemplateTypeParmDecl 0xa018e1818 <col:22, col:28> col:28 referenced class depth 0 index 1 _A2
+  |-NonTypeTemplateParmDecl 0xa018e1da0 <col:33, col:110> col:108 '__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value, int>':'typename enable_if<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value, int>::type' depth 0 index 2
+  | `-TemplateArgument <col:110> expr '0'
+  |   `-IntegerLiteral 0xa018e1d40 <col:110> 'int' 0
+  `-FunctionDecl 0xa018e28e8 <line:40:1, line:44:1> line:40:52 remainder '__promote_t<_A1, _A2> (_A1, _A2) noexcept' inline
+    |-ParmVarDecl 0xa018e2728 <col:62, col:66> col:66 referenced __x '_A1'
+    |-ParmVarDecl 0xa018e27a8 <col:71, col:75> col:75 referenced __y '_A2'
+    |-CompoundStmt 0xa018e3eb8 <col:90, line:44:1>
+    | |-DeclStmt 0xa018e3410 <line:41:3, col:46>
+    | | `-TypeAliasDecl 0xa018e33b0 <col:3, col:45> col:9 referenced __result_type '__promote_t<_A1, _A2>':'decltype((__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value>)0 , std::__promote_impl(_A1()) + std::__promote_impl(_A2()))'
+    | |   `-TemplateSpecializationType 0xa018e32d0 '__promote_t<_A1, _A2>' sugar dependent alias
+    | |     |-name: '__promote_t':'std::__promote_t' qualified
+    | |     | `-TypeAliasTemplateDecl 0xa0553bec8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/promote.h:37:1, line:39:106> line:38:1 referenced __promote_t external-linkage
+    | |     |-TemplateArgument type '_A1':'type-parameter-0-0'
+    | |     | `-TemplateTypeParmType 0xa018e17e0 '_A1' dependent depth 0 index 0
+    | |     |   `-TemplateTypeParm 0xa018e1788 '_A1'
+    | |     |-TemplateArgument type '_A2':'type-parameter-0-1'
+    | |     | `-TemplateTypeParmType 0xa018e1870 '_A2' dependent depth 0 index 1
+    | |     |   `-TemplateTypeParm 0xa018e1818 '_A2'
+    | |     `-DecltypeType 0xa018e3290 'decltype((__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value>)0 , std::__promote_impl(_A1()) + std::__promote_impl(_A2()))' dependent
+    | |       `-BinaryOperator 0xa018e3268 <line:39:14, col:98> '<dependent type>' ','
+    | |         |-CStyleCastExpr 0xa018e3020 <col:14, col:67> '__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value>':'typename enable_if<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value, void>::type' <Dependent>
+    | |         | `-IntegerLiteral 0xa0553bb90 <col:67> 'int' 0
+    | |         `-BinaryOperator 0xa018e3248 <col:71, col:98> '<dependent type>' '+'
+    | |           |-CallExpr 0xa018e3218 <col:71, col:98> '<dependent type>'
+    | |           | |-UnresolvedLookupExpr 0xa018e3148 <col:71, col:76> '<overloaded function type>' lvalue (no ADL) = '__promote_impl' 0xa05539ef0 0xa0553a0c0 0xa0553a2c0 0xa0553a4c0 0xa0553a6c0 0xa0553a8c0 0xa0553aac0 0xa0553acc0 0xa0553af40 0xa0553b190 0xa0553b390 0xa0553b590
+    | |           | `-CXXUnresolvedConstructExpr 0xa018e31f8 <col:91, col:97> '_A1' '_A1'
+    | |           `-CallExpr 0xa018e3118 <col:71, col:98> '<dependent type>'
+    | |             |-UnresolvedLookupExpr 0xa018e3048 <col:71, col:76> '<overloaded function type>' lvalue (no ADL) = '__promote_impl' 0xa05539ef0 0xa0553a0c0 0xa0553a2c0 0xa0553a4c0 0xa0553a6c0 0xa0553a8c0 0xa0553aac0 0xa0553acc0 0xa0553af40 0xa0553b190 0xa0553b390 0xa0553b590
+    | |             `-CXXUnresolvedConstructExpr 0xa018e30f8 <col:91, col:97> '_A2' '_A2'
+    | |-DeclStmt 0xa018e3ce8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:42:3, col:97>
+    | | `-StaticAssertDecl 0xa018e3ca8 <col:3, col:96> col:3
+    | |   |-UnaryOperator 0xa018e3c70 <col:17, col:91> '<dependent type>' prefix '!' cannot overflow
+    | |   | `-ParenExpr 0xa018e3c50 <col:18, col:91> '<dependent type>'
+    | |   |   `-BinaryOperator 0xa018e3c30 <col:19, col:86> '<dependent type>' '&&'
+    | |   |     |-DependentScopeDeclRefExpr 0xa018e3830 <col:19, col:48> '<dependent type>' lvalue
+    | |   |     | `-NestedNameSpecifier TypeSpec '_IsSame<_A1, __result_type>':'integral_constant<bool, __is_same(_A1, __result_type)>'
+    | |   |     `-DependentScopeDeclRefExpr 0xa018e3bf8 <col:57, col:86> '<dependent type>' lvalue
+    | |   |       `-NestedNameSpecifier TypeSpec '_IsSame<_A2, __result_type>':'integral_constant<bool, __is_same(_A2, __result_type)>'
+    | |   `-StringLiteral 0xa018e3c88 <col:94> 'NULL TYPE' lvalue ""
+    | `-ReturnStmt 0xa018e3ea8 <line:43:3, col:66>
+    |   `-CallExpr 0xa018e3e70 <col:10, col:66> '<dependent type>'
+    |     |-UnresolvedLookupExpr 0xa018e3d20 <col:10, col:18> '<overloaded function type>' lvalue (no ADL) = 'remainder' 0xa018e01a8 0xa018e0a80 0xa018e11f8 0xa018e2998
+    |     |-CStyleCastExpr 0xa018e3dd0 <col:28, col:43> '__result_type':'decltype((__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value>)0 , std::__promote_impl(_A1()) + std::__promote_impl(_A2()))' <Dependent>
+    |     | `-DeclRefExpr 0xa018e3d98 <col:43> '_A1' lvalue ParmVar 0xa018e2728 '__x' '_A1'
+    |     `-CStyleCastExpr 0xa018e3e48 <col:48, col:63> '__result_type':'decltype((__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value>)0 , std::__promote_impl(_A1()) + std::__promote_impl(_A2()))' <Dependent>
+    |       `-DeclRefExpr 0xa018e3e10 <col:63> '_A2' lvalue ParmVar 0xa018e27a8 '__y' '_A2'
+    |-VisibilityAttr 0xa018e2a00 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Hidden
+    |-ExcludeFromExplicitInstantiationAttr 0xa018e2a60 <line:278:72>
+    `-AbiTagAttr 0xa018e2a88 <line:388:22, col:73> nqe210106
+
+Dumping std::remainder:
+UsingDecl 0xa019249a8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath:482:1, col:9> col:9 ::remainder
+|-NestedNameSpecifier Global
+`-UsingIfExistsAttr 0xa01924a00 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:983:52>
+
+Dumping std::remainder:
+UsingShadowDecl 0xa01924a60 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath:482:9> col:9 implicit Function 0xa01898668 'remainder' 'double (double, double)'
+`-FunctionDecl 0xa01898668 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h:528:1, col:39> col:15 remainder 'double (double, double)' extern external-linkage
+  |-ParmVarDecl 0xa01898508 <col:25> col:31 'double'
+  |-ParmVarDecl 0xa01898590 <col:33> col:39 'double'
+  |-BuiltinAttr 0xa01898738 <<invalid sloc>> Implicit 1159
+  |-ConstAttr 0xa01898798 <col:15> Implicit
+  `-NoThrowAttr 0xa018987c0 <col:15> Implicit
+
+Dumping std::remainder:
+UsingShadowDecl 0xa01924af0 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath:482:9> col:9 implicit Function 0xa018e01a8 'remainder' 'float (float, float) noexcept'
+`-FunctionDecl 0xa018e01a8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:28:1, col:119> col:36 remainder 'float (float, float) noexcept' inline external-linkage
+  |-ParmVarDecl 0xa018e0040 <col:46, col:52> col:52 used __x 'float'
+  |-ParmVarDecl 0xa018e00c8 <col:57, col:63> col:63 used __y 'float'
+  |-CompoundStmt 0xa018e0708 <col:78, col:119>
+  | `-ReturnStmt 0xa018e06f8 <col:80, col:116>
+  |   `-CallExpr 0xa018e0690 <col:87, col:116> 'float'
+  |     |-ImplicitCastExpr 0xa018e0678 <col:87> 'float (*)(float, float) noexcept' <BuiltinFnToFnPtr>
+  |     | `-DeclRefExpr 0xa018e0600 <col:87> '<builtin fn type>' Function 0xa018e03b8 '__builtin_remainderf' 'float (float, float) noexcept'
+  |     |-ImplicitCastExpr 0xa018e06c8 <col:108> 'float' <LValueToRValue>
+  |     | `-DeclRefExpr 0xa018e0638 <col:108> 'float' lvalue ParmVar 0xa018e0040 '__x' 'float'
+  |     `-ImplicitCastExpr 0xa018e06e0 <col:113> 'float' <LValueToRValue>
+  |       `-DeclRefExpr 0xa018e0658 <col:113> 'float' lvalue ParmVar 0xa018e00c8 '__y' 'float'
+  |-VisibilityAttr 0xa018e0260 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Hidden
+  |-ExcludeFromExplicitInstantiationAttr 0xa018e02c0 <line:278:72>
+  `-AbiTagAttr 0xa018e02e8 <line:388:22, col:73> nqe210106
+
+Dumping std::remainder:
+UsingShadowDecl 0xa01924b80 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath:482:9> col:9 implicit FunctionTemplate 0xa018e0a80 'remainder'
+`-FunctionTemplateDecl 0xa018e0a80 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:30:1, line:33:1> line:31:30 remainder external-linkage
+  |-TemplateTypeParmDecl 0xa018e0740 <line:30:11, col:19> col:17 class depth 0 index 0
+  | `-TemplateArgument type 'int'
+  |   `-BuiltinType 0xa04cc7110 'int'
+  `-FunctionDecl 0xa018e09d0 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:39, /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:33:1> line:31:30 remainder 'double (double, double) noexcept'
+    |-ParmVarDecl 0xa018e0868 <col:40, col:47> col:47 referenced __x 'double'
+    |-ParmVarDecl 0xa018e08f0 <col:52, col:59> col:59 referenced __y 'double'
+    |-CompoundStmt 0xa018e1010 <col:74, line:33:1>
+    | `-ReturnStmt 0xa018e1000 <line:32:3, col:38>
+    |   `-CallExpr 0xa018e0f98 <col:10, col:38> 'double'
+    |     |-ImplicitCastExpr 0xa018e0f80 <col:10> 'double (*)(double, double) noexcept' <BuiltinFnToFnPtr>
+    |     | `-DeclRefExpr 0xa018e0f08 <col:10> '<builtin fn type>' Function 0xa018e0cc0 '__builtin_remainder' 'double (double, double) noexcept'
+    |     |-ImplicitCastExpr 0xa018e0fd0 <col:30> 'double' <LValueToRValue>
+    |     | `-DeclRefExpr 0xa018e0f40 <col:30> 'double' lvalue ParmVar 0xa018e0868 '__x' 'double'
+    |     `-ImplicitCastExpr 0xa018e0fe8 <col:35> 'double' <LValueToRValue>
+    |       `-DeclRefExpr 0xa018e0f60 <col:35> 'double' lvalue ParmVar 0xa018e08f0 '__y' 'double'
+    |-VisibilityAttr 0xa018e0ae8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Hidden
+    |-ExcludeFromExplicitInstantiationAttr 0xa018e0b48 <line:278:72>
+    `-AbiTagAttr 0xa018e0b70 <line:388:22, col:73> nqe210106
+
+Dumping std::remainder:
+UsingShadowDecl 0xa01924c10 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath:482:9> col:9 implicit Function 0xa018e11f8 'remainder' 'long double (long double, long double) noexcept'
+`-FunctionDecl 0xa018e11f8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:35:1, line:37:1> line:35:42 remainder 'long double (long double, long double) noexcept' inline external-linkage
+  |-ParmVarDecl 0xa018e1090 <col:52, col:64> col:64 used __x 'long double'
+  |-ParmVarDecl 0xa018e1118 <col:69, col:81> col:81 used __y 'long double'
+  |-CompoundStmt 0xa018e1768 <col:96, line:37:1>
+  | `-ReturnStmt 0xa018e1758 <line:36:3, col:39>
+  |   `-CallExpr 0xa018e16f0 <col:10, col:39> 'long double'
+  |     |-ImplicitCastExpr 0xa018e16d8 <col:10> 'long double (*)(long double, long double) noexcept' <BuiltinFnToFnPtr>
+  |     | `-DeclRefExpr 0xa018e1660 <col:10> '<builtin fn type>' Function 0xa018e1418 '__builtin_remainderl' 'long double (long double, long double) noexcept'
+  |     |-ImplicitCastExpr 0xa018e1728 <col:31> 'long double' <LValueToRValue>
+  |     | `-DeclRefExpr 0xa018e1698 <col:31> 'long double' lvalue ParmVar 0xa018e1090 '__x' 'long double'
+  |     `-ImplicitCastExpr 0xa018e1740 <col:36> 'long double' <LValueToRValue>
+  |       `-DeclRefExpr 0xa018e16b8 <col:36> 'long double' lvalue ParmVar 0xa018e1118 '__y' 'long double'
+  |-VisibilityAttr 0xa018e12b0 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Hidden
+  |-ExcludeFromExplicitInstantiationAttr 0xa018e1310 <line:278:72>
+  `-AbiTagAttr 0xa018e1338 <line:388:22, col:73> nqe210106
+
+Dumping std::remainder:
+UsingShadowDecl 0xa01924ca0 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath:482:9> col:9 implicit FunctionTemplate 0xa018e2998 'remainder'
+`-FunctionTemplateDecl 0xa018e2998 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:39:1, line:44:1> line:40:52 remainder external-linkage
+  |-TemplateTypeParmDecl 0xa018e1788 <line:39:11, col:17> col:17 referenced class depth 0 index 0 _A1
+  |-TemplateTypeParmDecl 0xa018e1818 <col:22, col:28> col:28 referenced class depth 0 index 1 _A2
+  |-NonTypeTemplateParmDecl 0xa018e1da0 <col:33, col:110> col:108 '__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value, int>':'typename enable_if<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value, int>::type' depth 0 index 2
+  | `-TemplateArgument <col:110> expr '0'
+  |   `-IntegerLiteral 0xa018e1d40 <col:110> 'int' 0
+  `-FunctionDecl 0xa018e28e8 <line:40:1, line:44:1> line:40:52 remainder '__promote_t<_A1, _A2> (_A1, _A2) noexcept' inline
+    |-ParmVarDecl 0xa018e2728 <col:62, col:66> col:66 referenced __x '_A1'
+    |-ParmVarDecl 0xa018e27a8 <col:71, col:75> col:75 referenced __y '_A2'
+    |-CompoundStmt 0xa018e3eb8 <col:90, line:44:1>
+    | |-DeclStmt 0xa018e3410 <line:41:3, col:46>
+    | | `-TypeAliasDecl 0xa018e33b0 <col:3, col:45> col:9 referenced __result_type '__promote_t<_A1, _A2>':'decltype((__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value>)0 , std::__promote_impl(_A1()) + std::__promote_impl(_A2()))'
+    | |   `-TemplateSpecializationType 0xa018e32d0 '__promote_t<_A1, _A2>' sugar dependent alias
+    | |     |-name: '__promote_t':'std::__promote_t' qualified
+    | |     | `-TypeAliasTemplateDecl 0xa0553bec8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/promote.h:37:1, line:39:106> line:38:1 referenced __promote_t external-linkage
+    | |     |-TemplateArgument type '_A1':'type-parameter-0-0'
+    | |     | `-TemplateTypeParmType 0xa018e17e0 '_A1' dependent depth 0 index 0
+    | |     |   `-TemplateTypeParm 0xa018e1788 '_A1'
+    | |     |-TemplateArgument type '_A2':'type-parameter-0-1'
+    | |     | `-TemplateTypeParmType 0xa018e1870 '_A2' dependent depth 0 index 1
+    | |     |   `-TemplateTypeParm 0xa018e1818 '_A2'
+    | |     `-DecltypeType 0xa018e3290 'decltype((__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value>)0 , std::__promote_impl(_A1()) + std::__promote_impl(_A2()))' dependent
+    | |       `-BinaryOperator 0xa018e3268 <line:39:14, col:98> '<dependent type>' ','
+    | |         |-CStyleCastExpr 0xa018e3020 <col:14, col:67> '__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value>':'typename enable_if<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value, void>::type' <Dependent>
+    | |         | `-IntegerLiteral 0xa0553bb90 <col:67> 'int' 0
+    | |         `-BinaryOperator 0xa018e3248 <col:71, col:98> '<dependent type>' '+'
+    | |           |-CallExpr 0xa018e3218 <col:71, col:98> '<dependent type>'
+    | |           | |-UnresolvedLookupExpr 0xa018e3148 <col:71, col:76> '<overloaded function type>' lvalue (no ADL) = '__promote_impl' 0xa05539ef0 0xa0553a0c0 0xa0553a2c0 0xa0553a4c0 0xa0553a6c0 0xa0553a8c0 0xa0553aac0 0xa0553acc0 0xa0553af40 0xa0553b190 0xa0553b390 0xa0553b590
+    | |           | `-CXXUnresolvedConstructExpr 0xa018e31f8 <col:91, col:97> '_A1' '_A1'
+    | |           `-CallExpr 0xa018e3118 <col:71, col:98> '<dependent type>'
+    | |             |-UnresolvedLookupExpr 0xa018e3048 <col:71, col:76> '<overloaded function type>' lvalue (no ADL) = '__promote_impl' 0xa05539ef0 0xa0553a0c0 0xa0553a2c0 0xa0553a4c0 0xa0553a6c0 0xa0553a8c0 0xa0553aac0 0xa0553acc0 0xa0553af40 0xa0553b190 0xa0553b390 0xa0553b590
+    | |             `-CXXUnresolvedConstructExpr 0xa018e30f8 <col:91, col:97> '_A2' '_A2'
+    | |-DeclStmt 0xa018e3ce8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:42:3, col:97>
+    | | `-StaticAssertDecl 0xa018e3ca8 <col:3, col:96> col:3
+    | |   |-UnaryOperator 0xa018e3c70 <col:17, col:91> '<dependent type>' prefix '!' cannot overflow
+    | |   | `-ParenExpr 0xa018e3c50 <col:18, col:91> '<dependent type>'
+    | |   |   `-BinaryOperator 0xa018e3c30 <col:19, col:86> '<dependent type>' '&&'
+    | |   |     |-DependentScopeDeclRefExpr 0xa018e3830 <col:19, col:48> '<dependent type>' lvalue
+    | |   |     | `-NestedNameSpecifier TypeSpec '_IsSame<_A1, __result_type>':'integral_constant<bool, __is_same(_A1, __result_type)>'
+    | |   |     `-DependentScopeDeclRefExpr 0xa018e3bf8 <col:57, col:86> '<dependent type>' lvalue
+    | |   |       `-NestedNameSpecifier TypeSpec '_IsSame<_A2, __result_type>':'integral_constant<bool, __is_same(_A2, __result_type)>'
+    | |   `-StringLiteral 0xa018e3c88 <col:94> 'NULL TYPE' lvalue ""
+    | `-ReturnStmt 0xa018e3ea8 <line:43:3, col:66>
+    |   `-CallExpr 0xa018e3e70 <col:10, col:66> '<dependent type>'
+    |     |-UnresolvedLookupExpr 0xa018e3d20 <col:10, col:18> '<overloaded function type>' lvalue (no ADL) = 'remainder' 0xa018e01a8 0xa018e0a80 0xa018e11f8 0xa018e2998
+    |     |-CStyleCastExpr 0xa018e3dd0 <col:28, col:43> '__result_type':'decltype((__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value>)0 , std::__promote_impl(_A1()) + std::__promote_impl(_A2()))' <Dependent>
+    |     | `-DeclRefExpr 0xa018e3d98 <col:43> '_A1' lvalue ParmVar 0xa018e2728 '__x' '_A1'
+    |     `-CStyleCastExpr 0xa018e3e48 <col:48, col:63> '__result_type':'decltype((__enable_if_t<is_arithmetic<_A1>::value && is_arithmetic<_A2>::value>)0 , std::__promote_impl(_A1()) + std::__promote_impl(_A2()))' <Dependent>
+    |       `-DeclRefExpr 0xa018e3e10 <col:63> '_A2' lvalue ParmVar 0xa018e27a8 '__y' '_A2'
+    |-VisibilityAttr 0xa018e2a00 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:239:54, col:72> Hidden
+    |-ExcludeFromExplicitInstantiationAttr 0xa018e2a60 <line:278:72>
+    `-AbiTagAttr 0xa018e2a88 <line:388:22, col:73> nqe210106
+
+Dumping std::remainderf:
+UsingDecl 0xa01924d38 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath:483:1, col:9> col:9 ::remainderf
+|-NestedNameSpecifier Global
+`-UsingIfExistsAttr 0xa01924d90 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:983:52>
+
+Dumping std::remainderf:
+UsingShadowDecl 0xa01924df0 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath:483:9> col:9 implicit Function 0xa01898368 'remainderf' 'float (float, float)'
+`-FunctionDecl 0xa01898368 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h:527:1, col:37> col:14 remainderf 'float (float, float)' extern external-linkage
+  |-ParmVarDecl 0xa01898208 <col:25> col:30 'float'
+  |-ParmVarDecl 0xa01898290 <col:32> col:37 'float'
+  |-BuiltinAttr 0xa01898438 <<invalid sloc>> Implicit 1157
+  |-ConstAttr 0xa01898498 <col:14> Implicit
+  `-NoThrowAttr 0xa018984c0 <col:14> Implicit
+
+Dumping std::remainderl:
+UsingDecl 0xa0192b0f8 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath:551:1, col:9> col:9 ::remainderl
+|-NestedNameSpecifier Global
+`-UsingIfExistsAttr 0xa0192b150 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:983:52>
+
+Dumping std::remainderl:
+UsingShadowDecl 0xa0192b1b0 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath:551:9> col:9 implicit Function 0xa01898968 'remainderl' 'long double (long double, long double)'
+`-FunctionDecl 0xa01898968 </Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h:529:1, col:55> col:20 remainderl 'long double (long double, long double)' extern external-linkage
+  |-ParmVarDecl 0xa01898808 <col:31, col:36> col:42 'long double'
+  |-ParmVarDecl 0xa01898890 <col:44, col:49> col:55 'long double'
+  |-BuiltinAttr 0xa01898a38 <<invalid sloc>> Implicit 1161
+  |-ConstAttr 0xa01898a98 <col:20> Implicit
+  `-NoThrowAttr 0xa01898ac0 <col:20> Implicit
+
+Dumping main:
+FunctionDecl 0xa00b761d0 <test_cases/issue.cpp:32:1, line:41:1> line:32:5 main 'int ()' external-linkage
+`-CompoundStmt 0xa00bfc7a0 <col:12, line:41:1>
+  |-DeclStmt 0xa00b764c0 <line:33:3, col:6>
+  | `-VarDecl 0xa00b762e8 <col:3, col:5> col:5 used t 'T' callinit
+  |   `-CXXConstructExpr 0xa00b76480 <col:5> 'T' 'void ()'
+  |-CXXForRangeStmt 0xa00bf9bf0 <line:34:3, line:38:3>
+  | |-<<<NULL>>>
+  | |-DeclStmt 0xa00becd40 <line:34:17>
+  | | `-VarDecl 0xa00becab0 <col:17, line:36:47> line:34:17 implicit used __range1 'std::vector<int> &&' cinit
+  | |   `-ExprWithCleanups 0xa00beccc8 <col:17, line:36:47> 'std::vector<int>' xvalue
+  | |     `-MaterializeTemporaryExpr 0xa00becc60 <line:34:17, line:36:47> 'std::vector<int>' xvalue extended by Var 0xa00becab0 '__range1' 'std::vector<int> &&'
+  | |       `-CXXBindTemporaryExpr 0xa00bec9c8 <line:34:17, line:36:47> 'std::vector<int>' (CXXTemporary 0xa00bec9c8)
+  | |         `-CXXOperatorCallExpr 0xa00bec878 <line:34:17, line:36:47> 'std::vector<int>' '()'
+  | |           |-ImplicitCastExpr 0xa00bec680 <col:46, col:47> 'std::vector<int> (*)(V &&) const' <FunctionToPointerDecay>
+  | |           | `-DeclRefExpr 0xa00bec5f8 <col:46, col:47> 'std::vector<int> (V &&) const' lvalue CXXMethod 0xa00b76ea8 'operator()' 'std::vector<int> (V &&) const'
+  | |           |-ImplicitCastExpr 0xa00bec6b0 <line:34:17, line:36:45> 'const (lambda at test_cases/issue.cpp:34:17)' lvalue <NoOp>
+  | |           | `-MaterializeTemporaryExpr 0xa00bec698 <line:34:17, line:36:45> '(lambda at test_cases/issue.cpp:34:17)' lvalue extended by Var 0xa00becab0 '__range1' 'std::vector<int> &&'
+  | |           |   `-LambdaExpr 0xa00bec4a0 <line:34:17, line:36:45> '(lambda at test_cases/issue.cpp:34:17)'
+  | |           |     |-CXXRecordDecl 0xa00b76d68 <line:34:17> col:17 implicit class definition
+  | |           |     | |-DefinitionData lambda standard_layout can_const_default_init
+  | |           |     | | |-DefaultConstructor defaulted_is_constexpr
+  | |           |     | | |-CopyConstructor simple non_trivial has_const_param needs_overload_resolution implicit_has_const_param
+  | |           |     | | |-MoveConstructor exists simple non_trivial needs_overload_resolution
+  | |           |     | | |-CopyAssignment trivial has_const_param needs_implicit implicit_has_const_param
+  | |           |     | | |-MoveAssignment needs_overload_resolution
+  | |           |     | | `-Destructor simple irrelevant trivial constexpr
+  | |           |     | |-CXXMethodDecl 0xa00b76ea8 <col:39, line:36:45> line:34:17 used constexpr operator() 'std::vector<int> (V &&) const' inline internal-linkage
+  | |           |     | | |-ParmVarDecl 0xa00b770a8 <col:30, col:38> col:35 'V &&' cinit
+  | |           |     | | | `-ExprWithCleanups 0xa00b777e8 <col:35, col:38> 'V' xvalue
+  | |           |     | | |   `-MaterializeTemporaryExpr 0xa00b777d0 <col:35, col:38> 'V' xvalue
+  | |           |     | | |     `-CXXConstructExpr 0xa00b77690 <col:35, col:38> 'V' 'void (C &&)' list
+  | |           |     | | |       `-CXXDefaultArgExpr 0xa00b77538 <<invalid sloc>> 'C' xvalue
+  | |           |     | | |         `-MaterializeTemporaryExpr 0xa00b76160 <line:29:10, col:13> 'C' xvalue
+  | |           |     | | |           `-CXXBindTemporaryExpr 0xa00b76140 <col:10, col:13> 'C' (CXXTemporary 0xa00b76140)
+  | |           |     | | |             `-CXXConstructExpr 0xa00b76110 <col:10, col:13> 'C' 'void ()' list
+  | |           |     | | `-CompoundStmt 0xa00bebca0 <line:35:17, line:36:45>
+  | |           |     | |   |-CXXOperatorCallExpr 0xa00b7a720 <line:35:19, col:47> 'std::ostream' lvalue '<<'
+  | |           |     | |   | |-ImplicitCastExpr 0xa00b7a708 <col:39> 'std::ostream &(*)(std::ostream &(*)(std::ostream &))' <FunctionToPointerDecay>
+  | |           |     | |   | | `-DeclRefExpr 0xa00b7a6e8 <col:39> 'std::ostream &(std::ostream &(*)(std::ostream &))' lvalue CXXMethod 0xa02f7c8a8 'operator<<' 'std::ostream &(std::ostream &(*)(std::ostream &))'
+  | |           |     | |   | |-CXXOperatorCallExpr 0xa00b7a0d0 <col:19, col:32> 'basic_ostream<char, std::char_traits<char>>':'std::ostream' lvalue '<<' adl
+  | |           |     | |   | | |-ImplicitCastExpr 0xa00b7a0b8 <col:29> 'basic_ostream<char, std::char_traits<char>> &(*)(basic_ostream<char, std::char_traits<char>> &, const char *)' <FunctionToPointerDecay>
+  | |           |     | |   | | | `-DeclRefExpr 0xa00b7a098 <col:29> 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &, const char *)' lvalue Function 0xa00b62868 'operator<<' 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &, const char *)'
+  | |           |     | |   | | |-DeclRefExpr 0xa00b77920 <col:19, col:24> 'ostream':'std::ostream' lvalue Var 0xa009ed050 'cout' 'ostream':'std::ostream'
+  | |           |     | |   | | | `-NestedNameSpecifier Namespace 0xa00b5ed58 'std'
+  | |           |     | |   | | `-ImplicitCastExpr 0xa00b7a080 <col:32> 'const char *' <ArrayToPointerDecay>
+  | |           |     | |   | |   `-StringLiteral 0xa00b77950 <col:32> 'const char[5]' lvalue "body"
+  | |           |     | |   | `-ImplicitCastExpr 0xa00b7a6d0 <col:42, col:47> 'basic_ostream<char, std::char_traits<char>> &(*)(basic_ostream<char, std::char_traits<char>> &)' <FunctionToPointerDecay>
+  | |           |     | |   |   `-DeclRefExpr 0xa00b7a698 <col:42, col:47> 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &)' lvalue Function 0xa00b65678 'endl' 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &)' (FunctionTemplate 0xa02f6b048 'endl')
+  | |           |     | |   |     `-NestedNameSpecifier Namespace 0xa00b5ed58 'std'
+  | |           |     | |   `-ReturnStmt 0xa00bebc90 <line:36:19, col:42>
+  | |           |     | |     `-ExprWithCleanups 0xa00bebc78 <col:26, col:42> 'std::vector<int>'
+  | |           |     | |       `-CXXBindTemporaryExpr 0xa00bebad0 <col:26, col:42> 'std::vector<int>' (CXXTemporary 0xa00bebad0)
+  | |           |     | |         `-CXXTemporaryObjectExpr 0xa00beb4e8 <col:26, col:42> 'std::vector<int>' 'void (size_type, const value_type &)'
+  | |           |     | |           |-ImplicitCastExpr 0xa00bca578 <col:38> 'size_type':'unsigned long' <IntegralCast>
+  | |           |     | |           | `-IntegerLiteral 0xa00b7a7d8 <col:38> 'int' 1
+  | |           |     | |           `-MaterializeTemporaryExpr 0xa00bca5a8 <col:41> 'const int' lvalue
+  | |           |     | |             `-ImplicitCastExpr 0xa00bca590 <col:41> 'const int' <NoOp>
+  | |           |     | |               `-IntegerLiteral 0xa00b7a7f8 <col:41> 'int' 0
+  | |           |     | |-FieldDecl 0xa00bebe38 <line:34:18> col:18 implicit 'T'
+  | |           |     | |-FieldDecl 0xa00bebe90 <col:21> col:21 implicit 'U'
+  | |           |     | |-CXXConstructorDecl 0xa00bebfc0 <col:17> col:17 implicit constexpr (lambda at test_cases/issue.cpp:34:17) 'void (const (lambda at test_cases/issue.cpp:34:17) &)' inline default noexcept-unevaluated 0xa00bebfc0 internal-linkage
+  | |           |     | | `-ParmVarDecl 0xa00bec0f8 <col:17> col:17 'const (lambda at test_cases/issue.cpp:34:17) &'
+  | |           |     | |-CXXConstructorDecl 0xa00bec2c8 <col:17> col:17 implicit constexpr (lambda at test_cases/issue.cpp:34:17) 'void ((lambda at test_cases/issue.cpp:34:17) &&)' inline default noexcept-unevaluated 0xa00bec2c8 internal-linkage
+  | |           |     | | `-ParmVarDecl 0xa00bec408 <col:17> col:17 '(lambda at test_cases/issue.cpp:34:17) &&'
+  | |           |     | `-CXXDestructorDecl 0xa00bec4e0 <col:17> col:17 implicit referenced constexpr ~(lambda at test_cases/issue.cpp:34:17) 'void () noexcept' inline default trivial internal-linkage
+  | |           |     |-CXXConstructExpr 0xa00bebde0 <col:18> 'T' 'void (const T &, A &&)'
+  | |           |     | |-ImplicitCastExpr 0xa00bebce0 <col:18> 'const T' lvalue <NoOp>
+  | |           |     | | `-DeclRefExpr 0xa00bebcc0 <col:18> 'T' lvalue Var 0xa00b762e8 't' 'T'
+  | |           |     | `-CXXDefaultArgExpr 0xa00bebdb8 <<invalid sloc>> 'A' xvalue has rewritten init
+  | |           |     |   `-MaterializeTemporaryExpr 0xa00bebd88 <line:21:21, col:24> 'A' xvalue extended by Var 0xa00becab0 '__range1' 'std::vector<int> &&'
+  | |           |     |     `-CXXBindTemporaryExpr 0xa00bebd68 <col:21, col:24> 'A' (CXXTemporary 0xa00bebd68)
+  | |           |     |       `-CXXConstructExpr 0xa00bebd38 <col:21, col:24> 'A' 'void ()' list
+  | |           |     |-CXXTemporaryObjectExpr 0xa00b76b20 <line:34:25, col:27> 'U' 'void (B &&)' list
+  | |           |     | `-CXXDefaultArgExpr 0xa00b769c8 <<invalid sloc>> 'B' xvalue
+  | |           |     |   `-MaterializeTemporaryExpr 0xa00b75800 <line:25:10, col:13> 'B' xvalue
+  | |           |     |     `-CXXBindTemporaryExpr 0xa00b757e0 <col:10, col:13> 'B' (CXXTemporary 0xa00b757e0)
+  | |           |     |       `-CXXConstructExpr 0xa00b757b0 <col:10, col:13> 'B' 'void ()' list
+  | |           |     `-CompoundStmt 0xa00bebca0 <line:35:17, line:36:45>
+  | |           |       |-CXXOperatorCallExpr 0xa00b7a720 <line:35:19, col:47> 'std::ostream' lvalue '<<'
+  | |           |       | |-ImplicitCastExpr 0xa00b7a708 <col:39> 'std::ostream &(*)(std::ostream &(*)(std::ostream &))' <FunctionToPointerDecay>
+  | |           |       | | `-DeclRefExpr 0xa00b7a6e8 <col:39> 'std::ostream &(std::ostream &(*)(std::ostream &))' lvalue CXXMethod 0xa02f7c8a8 'operator<<' 'std::ostream &(std::ostream &(*)(std::ostream &))'
+  | |           |       | |-CXXOperatorCallExpr 0xa00b7a0d0 <col:19, col:32> 'basic_ostream<char, std::char_traits<char>>':'std::ostream' lvalue '<<' adl
+  | |           |       | | |-ImplicitCastExpr 0xa00b7a0b8 <col:29> 'basic_ostream<char, std::char_traits<char>> &(*)(basic_ostream<char, std::char_traits<char>> &, const char *)' <FunctionToPointerDecay>
+  | |           |       | | | `-DeclRefExpr 0xa00b7a098 <col:29> 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &, const char *)' lvalue Function 0xa00b62868 'operator<<' 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &, const char *)'
+  | |           |       | | |-DeclRefExpr 0xa00b77920 <col:19, col:24> 'ostream':'std::ostream' lvalue Var 0xa009ed050 'cout' 'ostream':'std::ostream'
+  | |           |       | | | `-NestedNameSpecifier Namespace 0xa00b5ed58 'std'
+  | |           |       | | `-ImplicitCastExpr 0xa00b7a080 <col:32> 'const char *' <ArrayToPointerDecay>
+  | |           |       | |   `-StringLiteral 0xa00b77950 <col:32> 'const char[5]' lvalue "body"
+  | |           |       | `-ImplicitCastExpr 0xa00b7a6d0 <col:42, col:47> 'basic_ostream<char, std::char_traits<char>> &(*)(basic_ostream<char, std::char_traits<char>> &)' <FunctionToPointerDecay>
+  | |           |       |   `-DeclRefExpr 0xa00b7a698 <col:42, col:47> 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &)' lvalue Function 0xa00b65678 'endl' 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &)' (FunctionTemplate 0xa02f6b048 'endl')
+  | |           |       |     `-NestedNameSpecifier Namespace 0xa00b5ed58 'std'
+  | |           |       `-ReturnStmt 0xa00bebc90 <line:36:19, col:42>
+  | |           |         `-ExprWithCleanups 0xa00bebc78 <col:26, col:42> 'std::vector<int>'
+  | |           |           `-CXXBindTemporaryExpr 0xa00bebad0 <col:26, col:42> 'std::vector<int>' (CXXTemporary 0xa00bebad0)
+  | |           |             `-CXXTemporaryObjectExpr 0xa00beb4e8 <col:26, col:42> 'std::vector<int>' 'void (size_type, const value_type &)'
+  | |           |               |-ImplicitCastExpr 0xa00bca578 <col:38> 'size_type':'unsigned long' <IntegralCast>
+  | |           |               | `-IntegerLiteral 0xa00b7a7d8 <col:38> 'int' 1
+  | |           |               `-MaterializeTemporaryExpr 0xa00bca5a8 <col:41> 'const int' lvalue
+  | |           |                 `-ImplicitCastExpr 0xa00bca590 <col:41> 'const int' <NoOp>
+  | |           |                   `-IntegerLiteral 0xa00b7a7f8 <col:41> 'int' 0
+  | |           `-CXXDefaultArgExpr 0xa00bec850 <<invalid sloc>> 'V' xvalue has rewritten init
+  | |             `-MaterializeTemporaryExpr 0xa00bec820 <line:34:35, col:38> 'V' xvalue extended by Var 0xa00becab0 '__range1' 'std::vector<int> &&'
+  | |               `-CXXConstructExpr 0xa00bec7f0 <col:35, col:38> 'V' 'void (C &&)' list
+  | |                 `-CXXDefaultArgExpr 0xa00bec7c8 <<invalid sloc>> 'C' xvalue has rewritten init
+  | |                   `-MaterializeTemporaryExpr 0xa00bec798 <line:29:10, col:13> 'C' xvalue extended by Var 0xa00becab0 '__range1' 'std::vector<int> &&'
+  | |                     `-CXXBindTemporaryExpr 0xa00bec778 <col:10, col:13> 'C' (CXXTemporary 0xa00bec778)
+  | |                       `-CXXConstructExpr 0xa00bec748 <col:10, col:13> 'C' 'void ()' list
+  | |-DeclStmt 0xa00bf6178 <line:34:15>
+  | | `-VarDecl 0xa00becdb8 <col:15> col:15 implicit used __begin1 'iterator':'std::__wrap_iter<int *>' cinit
+  | |   `-CXXMemberCallExpr 0xa00bf5428 <col:15> 'iterator':'std::__wrap_iter<int *>'
+  | |     `-MemberExpr 0xa00becf08 <col:15> '<bound member function type>' .begin 0xa00bac6e8
+  | |       `-DeclRefExpr 0xa00becd58 <col:15> 'std::vector<int>' lvalue Var 0xa00becab0 '__range1' 'std::vector<int> &&'
+  | |-DeclStmt 0xa00bf6190 <col:15>
+  | | `-VarDecl 0xa00bece40 <col:15> col:15 implicit used __end1 'iterator':'std::__wrap_iter<int *>' cinit
+  | |   `-CXXMemberCallExpr 0xa00bf6080 <col:15> 'iterator':'std::__wrap_iter<int *>'
+  | |     `-MemberExpr 0xa00bf55e8 <col:15> '<bound member function type>' .end 0xa00bacad8
+  | |       `-DeclRefExpr 0xa00becd78 <col:15> 'std::vector<int>' lvalue Var 0xa00becab0 '__range1' 'std::vector<int> &&'
+  | |-CXXRewrittenBinaryOperator 0xa00bf9618 <col:15> 'bool'
+  | | `-UnaryOperator 0xa00bf9600 <col:15> 'bool' prefix '!' cannot overflow
+  | |   `-CXXOperatorCallExpr 0xa00bf95c8 <col:15> 'bool' '==' adl
+  | |     |-ImplicitCastExpr 0xa00bf95b0 <col:15> 'bool (*)(const __wrap_iter<int *> &, const __wrap_iter<int *> &) noexcept' <FunctionToPointerDecay>
+  | |     | `-DeclRefExpr 0xa00bf92a8 <col:15> 'bool (const __wrap_iter<int *> &, const __wrap_iter<int *> &) noexcept' lvalue Function 0xa00bf7ac0 'operator==' 'bool (const __wrap_iter<int *> &, const __wrap_iter<int *> &) noexcept'
+  | |     |-ImplicitCastExpr 0xa00bf9278 <col:15> 'const __wrap_iter<int *>':'const std::__wrap_iter<int *>' lvalue <NoOp>
+  | |     | `-DeclRefExpr 0xa00bf61a8 <col:15> 'iterator':'std::__wrap_iter<int *>' lvalue Var 0xa00becdb8 '__begin1' 'iterator':'std::__wrap_iter<int *>'
+  | |     `-ImplicitCastExpr 0xa00bf9290 <col:15> 'const __wrap_iter<int *>':'const std::__wrap_iter<int *>' lvalue <NoOp>
+  | |       `-DeclRefExpr 0xa00bf61c8 <col:15> 'iterator':'std::__wrap_iter<int *>' lvalue Var 0xa00bece40 '__end1' 'iterator':'std::__wrap_iter<int *>'
+  | |-CXXOperatorCallExpr 0xa00bf9798 <col:15> '__wrap_iter<int *>' lvalue '++'
+  | | |-ImplicitCastExpr 0xa00bf9780 <col:15> '__wrap_iter<int *> &(*)() noexcept' <FunctionToPointerDecay>
+  | | | `-DeclRefExpr 0xa00bf9650 <col:15> '__wrap_iter<int *> &() noexcept' lvalue CXXMethod 0xa00bf0a50 'operator++' '__wrap_iter<int *> &() noexcept'
+  | | `-DeclRefExpr 0xa00bf9630 <col:15> 'iterator':'std::__wrap_iter<int *>' lvalue Var 0xa00becdb8 '__begin1' 'iterator':'std::__wrap_iter<int *>'
+  | |-DeclStmt 0xa00beca70 <col:8, line:36:48>
+  | | `-VarDecl 0xa00beca08 <line:34:8, col:15> col:13 _ 'int' cinit
+  | |   `-ImplicitCastExpr 0xa00bf9a80 <col:15> 'int' <LValueToRValue>
+  | |     `-CXXOperatorCallExpr 0xa00bf9968 <col:15> 'int' lvalue '*'
+  | |       |-ImplicitCastExpr 0xa00bf9950 <col:15> 'reference (*)() const noexcept' <FunctionToPointerDecay>
+  | |       | `-DeclRefExpr 0xa00bf9838 <col:15> 'reference () const noexcept' lvalue CXXMethod 0xa00bf0568 'operator*' 'reference () const noexcept'
+  | |       `-ImplicitCastExpr 0xa00bf9820 <col:15> 'const std::__wrap_iter<int *>' lvalue <NoOp>
+  | |         `-DeclRefExpr 0xa00bf9800 <col:15> 'iterator':'std::__wrap_iter<int *>' lvalue Var 0xa00becdb8 '__begin1' 'iterator':'std::__wrap_iter<int *>'
+  | `-CompoundStmt 0xa00bfc758 <line:36:50, line:38:3>
+  |   `-CXXOperatorCallExpr 0xa00bfc720 <line:37:5, col:33> 'std::ostream' lvalue '<<'
+  |     |-ImplicitCastExpr 0xa00bfc708 <col:25> 'std::ostream &(*)(std::ostream &(*)(std::ostream &))' <FunctionToPointerDecay>
+  |     | `-DeclRefExpr 0xa00bfc6e8 <col:25> 'std::ostream &(std::ostream &(*)(std::ostream &))' lvalue CXXMethod 0xa02f7c8a8 'operator<<' 'std::ostream &(std::ostream &(*)(std::ostream &))'
+  |     |-CXXOperatorCallExpr 0xa00bfc0d0 <col:5, col:18> 'basic_ostream<char, std::char_traits<char>>':'std::ostream' lvalue '<<' adl
+  |     | |-ImplicitCastExpr 0xa00bfc0b8 <col:15> 'basic_ostream<char, std::char_traits<char>> &(*)(basic_ostream<char, std::char_traits<char>> &, const char *)' <FunctionToPointerDecay>
+  |     | | `-DeclRefExpr 0xa00bfc098 <col:15> 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &, const char *)' lvalue Function 0xa00b62868 'operator<<' 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &, const char *)'
+  |     | |-DeclRefExpr 0xa00bf9c98 <col:5, col:10> 'ostream':'std::ostream' lvalue Var 0xa009ed050 'cout' 'ostream':'std::ostream'
+  |     | | `-NestedNameSpecifier Namespace 0xa00b5ed58 'std'
+  |     | `-ImplicitCastExpr 0xa00bfc080 <col:18> 'const char *' <ArrayToPointerDecay>
+  |     |   `-StringLiteral 0xa00bf9cc8 <col:18> 'const char[5]' lvalue "iter"
+  |     `-ImplicitCastExpr 0xa00bfc6d0 <col:28, col:33> 'basic_ostream<char, std::char_traits<char>> &(*)(basic_ostream<char, std::char_traits<char>> &)' <FunctionToPointerDecay>
+  |       `-DeclRefExpr 0xa00bfc698 <col:28, col:33> 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &)' lvalue Function 0xa00b65678 'endl' 'basic_ostream<char, std::char_traits<char>> &(basic_ostream<char, std::char_traits<char>> &)' (FunctionTemplate 0xa02f6b048 'endl')
+  |         `-NestedNameSpecifier Namespace 0xa00b5ed58 'std'
+  `-ReturnStmt 0xa00bfc790 <line:40:3, col:10>
+    `-IntegerLiteral 0xa00bfc770 <col:10> 'int' 0
+

@@ -611,9 +611,13 @@ bool Parser::ParseFirstTopLevelDecl(DeclGroupPtrTy &Result,
   return NoTopLevelDecls;
 }
 
+int DebugCounter = 0;
+
 bool Parser::ParseTopLevelDecl(DeclGroupPtrTy &Result,
                                Sema::ModuleImportState &ImportState) {
   DestroyTemplateIdAnnotationsRAIIObj CleanupRAII(*this);
+
+  DebugCounter++;
 
   Result = nullptr;
   switch (Tok.getKind()) {
@@ -708,6 +712,7 @@ bool Parser::ParseTopLevelDecl(DeclGroupPtrTy &Result,
          MaybeParseGNUAttributes(DeclSpecAttrs))
     ;
 
+  // if (DebugCounter == 855)
   Result = ParseExternalDeclaration(DeclAttrs, DeclSpecAttrs);
   // An empty Result might mean a line with ';' or some parsing error, ignore
   // it.
@@ -723,6 +728,18 @@ bool Parser::ParseTopLevelDecl(DeclGroupPtrTy &Result,
       // Non-imports disallow further imports.
       ImportState = Sema::ModuleImportState::PrivateFragmentImportFinished;
   }
+
+  if (Result && Result.get().isSingleDecl()) {
+    Decl *D = Result.get().getSingleDecl();
+    if (auto *FD = dyn_cast<FunctionDecl>(D)) {
+      if (FD->isThisDeclarationADefinition() &&
+          FD->getDeclName().isIdentifier() &&
+          FD->getName() == "main") {
+        llvm::errs() << "Found main function definition!\n" << DebugCounter;
+      }
+    }
+  }
+
   return false;
 }
 
